@@ -13,3 +13,9 @@
 
 ### Data Mining with mlxtend
 <p><code>chicago_asoc_rules.py</code> contains an implementation of the Apriori algorithm used to detect possible patterns between Chicago crimes and the hardship levels of the community areas they happened, as well as associations between crimes of certain types and specific times of the day or year.</p>
+
+### Web Scraping with Selenium
+
+This project uses Selenium to collect interview questions and answers from GeeksforGeeks. The resulting CSV dataset is intended to provide source material for an AI chatbot that can answer interview-preparation questions.
+
+The scraper searches for relevant articles, extracts questions and their associated answers, removes duplicate article links, and saves the collected data to `interview_questions.csv`.
